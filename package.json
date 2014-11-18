@@ -1,0 +1,29 @@
+{
+  "name": "jill",
+  "version": "0.0.0",
+  "description": "Hapi.js API plugin for sensor data",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geek/jill.git"
+  },
+  "keywords": [
+    "hapijs",
+    "plugin",
+    "hapi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geek/jill/issues"
+  },
+  "homepage": "https://github.com/geek/jill",
+  "devDependencies": {
+    "code": "^1.2.1",
+    "hapi": "^7.5.2",
+    "lab": "^5.0.2"
+  }
+}
