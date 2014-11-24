@@ -24,7 +24,7 @@ describe('jill plugin', function () {
     it('can be registered in hapi', function (done) {
 
         var server = new Hapi.Server();
-        server.pack.register(Jill, function (err) {
+        server.register(Jill, function (err) {
 
             expect(err).to.not.exist();
             done();

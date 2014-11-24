@@ -23,7 +23,7 @@
   "homepage": "https://github.com/geek/jill",
   "devDependencies": {
     "code": "^1.2.1",
-    "hapi": "^7.5.2",
+    "hapi": "^8.0.0-rc3",
     "lab": "^5.0.2"
   },
   "dependencies": {
