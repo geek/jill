@@ -2,8 +2,10 @@ var Hapi = require('hapi');
 var Jill = require('../');
 
 
-var server = new Hapi.Server(15301);
-server.pack.register(Jill, function (err) {
+var server = new Hapi.Server();
+server.connection({ port: 15301 });
+
+server.register(Jill, function (err) {
 
     if (err) {
         return console.error(err);
