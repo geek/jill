@@ -1,6 +1,6 @@
 {
   "name": "jill",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Hapi.js API plugin for sensor data",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/geek/jill",
   "devDependencies": {
     "code": "^1.2.1",
-    "hapi": "^8.0.0-rc5",
+    "hapi": "^8.0.0-rc8",
     "lab": "^5.0.2"
   },
   "dependencies": {
