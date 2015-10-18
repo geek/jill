@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/geek/jill",
   "devDependencies": {
-    "code": "^1.2.1",
-    "hapi": "^8.0.0-rc8",
-    "lab": "^5.0.2"
+    "code": "1.x.x",
+    "hapi": "10.x.x",
+    "lab": "6.x.x"
   },
   "dependencies": {
     "boom": "2.x.x",
     "hoek": "2.x.x",
-    "joi": "4.x.x",
-    "mongodb": "1.4.x"
+    "joi": "6.x.x",
+    "mongodb": "2.x.x"
   }
 }
