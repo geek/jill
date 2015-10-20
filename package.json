@@ -1,6 +1,6 @@
 {
   "name": "jill",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Hapi.js API plugin for sensor data",
   "main": "index.js",
   "scripts": {
